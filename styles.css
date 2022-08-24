@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Overpass, sans-serif;
+    background-color: #141519;
+    color: white;
+
+}
+
+.svg {
+    width: 25px;
+    height: 25px;
+    background-color: #293039;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+svg {
+    transform: scale(0.6);
+}
+
+.card {
+
+    background-image:linear-gradient(to bottom, #1F252F, #181E28);
+}
+
+.content {
+    padding: 8%;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 13px;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-left: -35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type:none;
+    margin-bottom: 10px;
+}
+
+li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.6em;
+    font-size: 0.7em;
+    background-color: #293039;
+}
+
+h1, p, .rating {
+    margin-top: 1em;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 25px;
+    color: white;
+    text-transform:uppercase;
+    font-size: 12px;
+    letter-spacing: 0.4em;
+}
+
+.thanks {
+    display: none;
+}
+
+.attribution {
+
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 375px) {
+
+    .card {
+        margin: 50% auto;
+        width: 85vw;
+        border-radius: 8px;
+
+    }
+
+    
+
+
+}
