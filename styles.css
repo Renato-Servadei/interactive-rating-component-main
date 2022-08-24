@@ -33,6 +33,7 @@ svg {
 
 .content {
     padding: 8%;
+    display: none;
 }
 
 h1 {
@@ -81,9 +82,40 @@ button {
     font-size: 12px;
     letter-spacing: 0.4em;
 }
+/*-----------------------------
+thanks
+------------------------------*/
 
 .thanks {
-    display: none;
+    /* display: none; */
+    padding: 8%;
+    background-image: linear-gradient(to bottom, hsl(215, 10%, 23%), #181e28);
+    margin: 50% auto;
+    width: 85vw;
+    border-radius: 8px;
+}
+
+#thanksImg {
+    display: block;
+    margin: 0 auto 10px;
+    transform: scale(0.8);
+    
+}
+
+.thanks>span {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: hsl(215, 10%, 32%);
+    color: hsl(25, 97%, 53%);
+    font-size: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.thanks>h1, .thanks>p {
+    text-align: center;
 }
 
 .attribution {
